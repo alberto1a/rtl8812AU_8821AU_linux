@@ -1,3 +1,14 @@
+The best and simplest way for Dlink Dwa172 and Dwa 172 installation process. 
+One installation for two drivers.
+Yes, it can work.
+
+sudo apt-get install dkms -y
+sudo apt-get install build-essential linux-headers-generic linux-headers-uname-r -y
+cd rtl8812AU_8821AU_linux
+sudo make
+sudo make install
+sudo modprobe  rtl8821ae
+
 # rtl8812au
 
 Realtek 8812AU/8821AU USB WiFi driver.
