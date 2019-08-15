@@ -3,7 +3,7 @@ One installation for two drivers.
 Yes, it can work.
 
 sudo apt-get install dkms -y
-sudo apt-get install build-essential linux-headers-generic linux-headers-'uname-r' -y
+sudo apt-get install build-essential linux-headers-generic linux-headers-`uname -r` -y
 cd rtl8812AU_8821AU_linux
 sudo make
 sudo make install
