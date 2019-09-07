@@ -9,6 +9,12 @@ sudo make
 sudo make install
 sudo modprobe  rtl8821ae
 
+It is also fine for TP-Link T4U v3 ac1300 USB3 as the same for D'link dwa 172 and 172 were before.
+
+sudo make clean
+make -8j
+sudo  modprobe cfg80211    for T4U v3 ac1300
+
 # rtl8812au
 
 Realtek 8812AU/8821AU USB WiFi driver.
